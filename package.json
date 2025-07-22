@@ -38,7 +38,8 @@
   },
   "devDependencies": {
     "@initencounter/vits": "^0.0.3",
-    "@koishijs/plugin-proxy-agent": "^0.3.3"
+    "@koishijs/plugin-proxy-agent": "^0.3.3",
+    "typescript": "^5.0.0"
   },
   "koishi": {
     "browser": true,

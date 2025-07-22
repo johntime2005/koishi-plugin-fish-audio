@@ -13,7 +13,7 @@ class Main extends Service implements Vits {
     super(ctx, 'vits', true)
     // 代理逻辑保持不变，这是正确的
     if (config.proxy_agent) {
-      this.http = ctx.http.extend({ proxyAgent: config.proxy_agent })
+      this.http = ctx.http.extend({ proxyAgent: config.proxy_agent } as any)
     }
 
     for (const x of config.command) {
