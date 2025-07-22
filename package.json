@@ -1,0 +1,55 @@
+{
+  "name": "koishi-plugin-fish-audio",
+  "description": "Text-to-speech via Fish Audio API",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "johntime2005",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntime2005/koishi-plugin-fish-audio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johntime2005/koishi-plugin-fish-audio/issues"
+  },
+  "homepage": "https://github.com/johntime2005/koishi-plugin-fish-audio#readme",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "fish",
+    "audio",
+    "speech",
+    "tts",
+    "vits",
+    "say"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.9"
+  },
+  "devDependencies": {
+    "@initencounter/vits": "^0.0.3",
+    "@koishijs/plugin-proxy-agent": "^0.3.3"
+  },
+  "koishi": {
+    "browser": true,
+    "service": {
+      "implements": [
+        "vits"
+      ]
+    },
+    "description": {
+      "en": "Text-to-speech via Fish Audio API",
+      "zh": "通过 Fish Audio API 进行文本转语音，且支持 vits 服务"
+    }
+  }
+}
