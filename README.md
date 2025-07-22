@@ -1,6 +1,6 @@
-# koishi-plugin-fish-audio
+# koishi-plugin-fish-audio-tts
 
-[![npm](https://img.shields.io/npm/v/koishi-plugin-fish-audio?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-fish-audio)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-fish-audio-tts?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-fish-audio-tts)
 
 通过 Fish Audio API 进行文本转语音，支持 Koishi VITS 服务接口。
 
@@ -15,7 +15,7 @@
 ## 安装
 
 ```bash
-npm install koishi-plugin-fish-audio
+npm install koishi-plugin-fish-audio-tts
 ```
 
 ## 配置
