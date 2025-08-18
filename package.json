@@ -44,6 +44,9 @@
   "koishi": {
     "browser": true,
     "service": {
+      "required": [
+        "http"
+      ],
       "implements": [
         "vits"
       ]
