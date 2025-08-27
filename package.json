@@ -1,7 +1,7 @@
 {
-  "name": "koishi-plugin-fish-audio-tts",
+  "name": "koishi-plugin-fishaudio-vits",
   "description": "Text-to-speech via Fish Audio API",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -12,12 +12,12 @@
   "author": "johntime2005",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johntime2005/koishi-plugin-fish-audio-tts.git"
+    "url": "git+https://github.com/johntime2005/koishi-plugin-fish-audio.git"
   },
   "bugs": {
-    "url": "https://github.com/johntime2005/koishi-plugin-fish-audio-tts/issues"
+    "url": "https://github.com/johntime2005/koishi-plugin-fish-audio/issues"
   },
-  "homepage": "https://github.com/johntime2005/koishi-plugin-fish-audio-tts#readme",
+  "homepage": "https://github.com/johntime2005/koishi-plugin-fish-audio#readme",
   "keywords": [
     "chatbot",
     "koishi",
